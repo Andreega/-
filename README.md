@@ -1,4 +1,4 @@
-python
+#1
 class Report:
     def generate_report(self, data):
         return f"Report: {data}"
@@ -7,6 +7,7 @@ class Report:
         with open('report.txt', 'w') as file:
             file.write(report)
 
+#1,5
 
 python
 class ReportGenerator:
@@ -29,7 +30,7 @@ class AreaCalculator:
         elif isinstance(shape, Rectangle):
             return shape.width * shape.height
 
-
+#2,5
 
 python
 class Shape:
@@ -66,7 +67,7 @@ class Ostrich(Bird):
     def fly(self):
         raise Exception("Ostrich can't fly!")
 
-
+#3,5
 
 python
 class Bird:
@@ -97,6 +98,7 @@ class Machine:
         pass
 
 
+#4,5
 
 
 python
@@ -132,7 +134,7 @@ class Switch:
 
 
 
-
+#4,5
 
 python
 class Switchable:
